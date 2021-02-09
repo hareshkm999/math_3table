@@ -69,10 +69,10 @@ body {
 		<div class="results">
 			{% if prediction==1 %}
 				<h1>Result: <span class='danger'>Opps! You did wrong, but you can improve.</span></h1>
-				<img class="gif" src="{{ url_for('static', filename='shaanu.webp') }}" alt="Diabetes Image">
+				<img class="gif" src="{{ url_for('static', filename='liya.webp') }}" alt="Diabetes Image">
 			{% elif prediction==0 %}
 				<h1>Result: <span class='safe'>Hurrah !!! You did it Great.</span></h1>
-				<img class="gif1" src="{{ url_for('static', filename='happyshaanu.webp') }}" alt="Not Diabetes Image">
+				<img class="gif1" src="{{ url_for('static', filename='liya_happy.webp') }}" alt="Not Diabetes Image">
 			{% endif %}
 		</div>
 
